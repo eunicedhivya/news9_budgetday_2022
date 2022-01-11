@@ -16,27 +16,28 @@
 .budget_grid{
     display: flex;
     column-gap: 35px;
-    row-gap: 35px;
+    row-gap: 50px;
     flex-wrap: wrap;
     font-family: 'Georama', sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .budget_story {
-    width: 31%;
+    width: 100%;
     box-sizing: border-box;
 }
 .budget_story .catName{
     background-color: #056EFF;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     color: #fff;
     text-transform: uppercase;
-    font-size: 11px;
-    margin-bottom: 8px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding: 10px 15px;
     display: inline-block;
 }
 .budget_story .budget_author-details{
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     /* column-gap: 20px; */
 }
 .budget_story .budget_featured-img{
@@ -54,16 +55,56 @@
 .budget_story .budget_author-text p{
     color: #F6901E;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: 'Georama', sans-serif;
 }
 .budget_story .budget_author-text h2{
     font-weight: 700;
-    font-size: 21px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Georama', sans-serif;
 }
 
 @media (max-width:767px){
-    .budget_story {
+    /* .budget_story {
         width: 100%;
         box-sizing: border-box;
+    }
+    .budget_grid{
+        row-gap: 50px;
+    } */
+    .budget_story .budget_author-img{
+        width: 30%;        
+    }
+
+    
+}
+@media (min-width:1024px){
+    .budget_story {
+        width: 31%;
+        box-sizing: border-box;
+    }
+
+    .budget_story .budget_author-details{
+        align-items: flex-start;
+        /* column-gap: 20px; */
+    }
+
+    .budget_story .budget_author-text p{
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .budget_story .budget_author-text h2{
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .budget_story .catName{
+        letter-spacing: 8px;
+        font-size: 12px;
+         margin-bottom: 12px;
+        padding: 8px 8px 8px 16px;
     }
 }
