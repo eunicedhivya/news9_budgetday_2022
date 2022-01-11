@@ -1,17 +1,25 @@
-.budget_page-intro{
+.budget_page-intro p{
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     margin: 20px auto 50px auto;
     text-align: center;
-    font-family: 'Georama', sans-serif;
+
+}
+.budget_page-intro h1{
+    width: 100%;
+    max-width: 650px;
+    margin: 20px auto 50px auto;
+    text-align: center;
+
 }
 .budget_page-intro h1{
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 20px;
+    font-family: 'Georama', sans-serif;
 }
 .budget_page-intro p{
-    font-size: 18px;
+    font-size: 16px;
 }
 .budget_grid{
     display: flex;
@@ -58,6 +66,7 @@
     font-size: 18px;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    text-transform: uppercase;
     font-family: 'Georama', sans-serif;
 }
 .budget_story .budget_author-text h2{
@@ -93,7 +102,7 @@
     }
 
     .budget_story .budget_author-text p{
-        font-size: 14px;
+        font-size: 13px;
         margin-bottom: 5px;
     }
     .budget_story .budget_author-text h2{
@@ -103,8 +112,8 @@
 
     .budget_story .catName{
         letter-spacing: 8px;
-        font-size: 12px;
-         margin-bottom: 12px;
-        padding: 8px 8px 8px 16px;
+    font-size: 10px;
+    margin-bottom: 12px;
+    padding: 8px 7px 8px 12px;
     }
 }
