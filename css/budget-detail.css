@@ -42,9 +42,9 @@
 
 .budget_author-name {
   color: #f6901e;
-  font-weight: 700;
+  font-weight: 700 !important;
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Georama", sans-serif;
@@ -60,7 +60,9 @@
 .budget_detail-content .budget_article {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
 }
 
 .budget_detail-content p {
@@ -154,12 +156,41 @@ h2.also-read {
   font-family: "Georama", sans-serif;
 }
 
+.budget_article .flourish-embed-iframe {
+  margin-bottom: 30px;
+}
+.budget_article blockquote {
+  margin: 30px 0;
+  font-family: "merriweather";
+  font-size: 26px;
+  line-height: 34px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 60px 0 20px;
+  position: relative;
+}
+.budget_article blockquote::before {
+  content: url("../assets/quote.PNG");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+
 @media (max-width: 767px) {
   .also-read-widget {
     display: none;
   }
 }
+
 @media (min-width: 768px) {
+  .budget_story {
+    width: 47.9%;
+    box-sizing: border-box;
+  }
+  .budget_grid {
+    column-gap: 30px;
+  }
   .also-read-widget {
     display: none;
   }
