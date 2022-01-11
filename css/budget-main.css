@@ -48,7 +48,7 @@
 }
 .budget_story .budget_author-details{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     /* column-gap: 20px; */
 }
 .budget_story .budget_featured-img{
