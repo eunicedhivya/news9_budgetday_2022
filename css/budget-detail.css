@@ -184,9 +184,9 @@ h2.also-read {
     width: 47.9%;
     box-sizing: border-box;
   }
-  .budget_grid {
+  /* .budget_grid {
     column-gap: 30px;
-  }
+  } */
   .also-read-widget {
     display: none;
   }
@@ -214,7 +214,7 @@ h2.also-read {
 }
 @media (min-width: 1024px) {
   .budget_story {
-    width: 22.2%;
+    width: 22.37%;
   }
 
   .budget_detail-content .budget_author-details {

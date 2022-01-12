@@ -1,6 +1,7 @@
-.budget_page-intro,  .budget_grid{
+/* .budget_page-intro,  .budget_grid{
     margin: 0 20px;
-}
+} */
+.inBetweenAds{width:100%}
 .budget_page-intro p{
     width: 100%;
     max-width: 750px;
@@ -98,9 +99,9 @@
         width: 47.9%;
         box-sizing: border-box;
     }
-    .budget_grid{
+    /* .budget_grid{
         column-gap: 30px;
-    }
+    } */
 }
 @media (min-width:1024px){
     .budget_story {
